@@ -6,7 +6,6 @@ export default function Document() {
       <Head>
         <link rel="icon" href="/icon.svg" />
         <meta name="description" content="Vitor's Blog" />
-        <title>Vitor's Blog</title>
       </Head>
       <body className='bg-neutral-50 dark:bg-neutral-900'>
         <Main />
