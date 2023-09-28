@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <div className={inter.className}>
       <DarkModeContextProvider>
         <Head>
-          <title>Vitor's Blog</title>
+          <title>Vitor&apos;s Blog</title>
         </Head>
         <Component {...pageProps} />
       </DarkModeContextProvider>
