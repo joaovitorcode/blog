@@ -11,7 +11,7 @@ export default function Home({ data }: any) {
       <Header />
       <main className="px-4 md:px-0">
         <h1 className="text-2xl font-bold text-neutral-800 dark:text-white mb-8">
-          Welcome to <span className="text-blue-600 dark:text-blue-300">vitor's blog</span>! 👋
+          Welcome to <span className="text-blue-600 dark:text-blue-300">vitor&apos;s blog</span>! 👋
         </h1>
         <article className="prose prose-neutral dark:prose-invert">
           <RichText content={page.introduction.raw} />
